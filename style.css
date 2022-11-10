@@ -1,0 +1,60 @@
+body {
+    background-image: url("./bg-image");
+}
+
+.traffic {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rod {
+    background-color: gray;
+    width: 50px;
+    height: 150px;
+}
+
+.traffic-body {
+    background-color: black;
+    color: aliceblue;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    /* position: relative; */
+}
+
+.traffic-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    /* position: absolute; */
+}
+
+#stop {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    /* opacity: 1; */
+}
+
+#ready {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#go {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+}
